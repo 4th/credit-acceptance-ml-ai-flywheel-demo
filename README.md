@@ -286,5 +286,21 @@ This repository is structured intentionally to demonstrate:
 
 ---
 
-## 📄 License
-MIT License
+## 🧑‍🏫 Author & Project Ownership
+
+This project is the original work of **Dr. Freeman A. Jackson**,  
+AI Architect, ML Engineer, and Founder of **Fourth Industrial Systems (4th)**.
+
+It was developed as an end-to-end demonstration of Senior Manager–level ML Engineering capabilities, including:
+
+- Applied ML for credit approval and risk scoring  
+- Dealer recommendation engines using contextual bandits  
+- Uplift modeling design for lifecycle interventions  
+- Feature engineering pipelines and data layer architecture  
+- API deployment using FastAPI  
+- Monitoring, observability, and drift detection (PSI)  
+- Production-oriented repository structure and engineering best practices  
+
+All software design, ML workflows, data generation logic, diagrams, documentation, and architectural decisions are authored solely by **Dr. Freeman A. Jackson**.  
+The project is intended for professional portfolio use, hiring evaluation, and demonstration of advanced ML system design.
+
