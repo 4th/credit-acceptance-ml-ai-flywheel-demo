@@ -132,29 +132,52 @@ flowchart LR
 
 ## 🚀 Project Structure
 
-```
-credit-acceptance-ml-ai-flywheel-demo/
-│
+```credit-acceptance-ml-ai-flywheel-demo/
+├── README.md
+├── pyproject.toml              # (add this file with the content I gave you earlier)
+├── requirements.txt
 ├── data/
-│   ├── raw/                   # Original or synthetic raw data
-│   ├── processed/             # Train/test splits and bandit context
-│   └── models/                # Serialized trained models
-│
+│   ├── processed/
+│   └── raw/
+├── docs/
+│   ├── architecture.md
+│   └── flywheel.md
+├── airflow_dags/
+│   └── credit_approval_training_dag.py
+├── infra/
+│   ├── docker/
+│   │   └── Dockerfile.api
+│   └── k8s/
+│       ├── deployment-api.yaml
+│       └── service-api.yaml
+├── mlflow/
+│   # (empty placeholder directory for MLflow artifacts / notes)
+├── notebooks/
+│   # (placeholder – you can add EDA / demo notebooks here)
 ├── src/
 │   └── ca_ml_flywheel/
+│       ├── __init__.py
+│       ├── config.py
 │       ├── features/
+│       │   ├── __init__.py
 │       │   └── credit_features.py
+│       ├── genai/
+│       │   ├── __init__.py
+│       │   └── underwriter_copilot.py
 │       ├── models/
-│       │   ├── train_approval_model.py
-│       │   ├── bandit_recommender.py
-│       │   └── train_lifecycle_uplift.py
-│       └── serving/
-│           ├── api.py         # FastAPI serving layer
-│           ├── monitoring.py  # In‑memory monitoring + PSI
+│       │   ├── __init__.py
+│       │   └── train_approval_model.py
+│       ├── pipelines/
+│       │   └── __init__.py
+│       ├── serving/
+│       │   ├── __init__.py
+│       │   └── api.py
+│       └── utils/
 │           └── __init__.py
-│
-├── pyproject.toml
-└── README.md
+└── tests/
+    ├── __init__.py
+    └── test_features.py
+
 ```
 
 ---
