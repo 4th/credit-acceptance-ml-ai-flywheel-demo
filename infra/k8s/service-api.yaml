@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: credit-ml-api
+spec:
+  selector:
+    app: credit-ml-api
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 8000
+  type: ClusterIP

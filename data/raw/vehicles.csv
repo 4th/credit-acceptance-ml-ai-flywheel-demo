@@ -1,0 +1,3 @@
+vin,vehicle_type,make,model,year,mileage
+VIN0001,car,Toyota,Camry,2019,45000
+VIN0002,suv,Honda,CR-V,2018,60000

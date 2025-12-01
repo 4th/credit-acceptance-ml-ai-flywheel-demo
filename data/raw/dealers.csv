@@ -1,0 +1,3 @@
+dealer_id,name,region,volume_tier,risk_flag
+D001,Sunrise Auto,south,high,0
+D002,Midwest Motors,midwest,medium,1

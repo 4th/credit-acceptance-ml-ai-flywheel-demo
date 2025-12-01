@@ -1,0 +1,4 @@
+application_id,dealer_id,vehicle_type,region,applicant_income,loan_amount,vehicle_age,application_date
+APP-0001,D001,car,south,52000,15000,3,2025-01-10
+APP-0002,D002,suv,midwest,43000,18000,7,2025-01-11
+APP-0003,D001,truck,south,60000,22000,5,2025-01-12

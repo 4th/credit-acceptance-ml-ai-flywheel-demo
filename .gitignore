@@ -1,0 +1,35 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pkl
+*.joblib
+
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Data (raw + heavy processed + models)
+data/raw/*
+data/models/*
+data/processed/*.parquet
+
+# Allow safe synthetic CSVs
+!data/processed/*.csv
+!data/raw/*.csv
+
+# Logs
+*.log
+logs/
+
+# OS / Editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.iml
+
+# Uvicorn / runtime
+*.pid

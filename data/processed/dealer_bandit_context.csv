@@ -1,0 +1,7 @@
+dealer_id,arm_id,clicks,impressions
+D001,layout_a,120,300
+D001,layout_b,50,180
+D002,layout_a,10,40
+D002,layout_b,5,30
+D003,layout_a,3,20
+D003,layout_c,4,15

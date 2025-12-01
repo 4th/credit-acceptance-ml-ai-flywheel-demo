@@ -1,0 +1,4 @@
+application_id,payment_date,amount,status
+APP-0001,2025-02-15,375.0,on_time
+APP-0002,2025-02-15,420.0,late
+APP-0003,2025-02-15,500.0,on_time

@@ -1,0 +1,5 @@
+account_id,treatment,outcome,applicant_income,loan_amount,vehicle_age
+A001,sms,1,52000,15000,3
+A002,call,0,43000,18000,7
+A003,email,1,60000,22000,5
+A004,control,0,40000,12000,2
